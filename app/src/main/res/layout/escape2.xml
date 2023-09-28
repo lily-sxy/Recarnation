@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/escape2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/room2"
+        android:layout_width="555dp"
+        android:layout_height="367dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/room2"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/room2_arrow"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/room2"
+        android:layout_alignTop="@+id/room2"
+        android:layout_alignEnd="@+id/room2"
+        android:layout_alignBottom="@+id/room2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="473dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/arrow_left"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room2_door"
+        android:layout_width="108dp"
+        android:layout_height="187dp"
+        android:layout_alignStart="@+id/room2"
+        android:layout_alignTop="@+id/room2"
+        android:layout_alignEnd="@+id/room2"
+        android:layout_alignBottom="@+id/room2"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="365dp"
+        android:layout_marginBottom="162dp"
+        android:src="@drawable/door"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room2_mouse"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/room2_door"
+        android:layout_alignStart="@+id/room2"
+        android:layout_alignTop="@+id/room2"
+        android:layout_alignEnd="@+id/room2"
+        android:layout_alignBottom="@+id/room2"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="113dp"
+        android:src="@drawable/room2_mouse"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room2_mousei"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/room2"
+        android:layout_alignTop="@+id/room2"
+        android:layout_alignEnd="@+id/room2"
+        android:layout_alignBottom="@+id/room2"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/room2_mousei"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room2_bookshelf"
+        android:layout_width="191dp"
+        android:layout_height="209dp"
+        android:layout_alignStart="@+id/room2"
+        android:layout_alignTop="@+id/room2"
+        android:layout_alignEnd="@+id/room2"
+        android:layout_alignBottom="@+id/room2"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="114dp"
+        android:src="@drawable/room2_bookshelf"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room2_bookshelfi"
+        android:layout_width="202dp"
+        android:layout_height="233dp"
+        android:layout_alignStart="@+id/room2"
+        android:layout_alignTop="@+id/room2"
+        android:layout_alignEnd="@+id/room2"
+        android:layout_alignBottom="@+id/room2"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/room2_bookshelfi"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

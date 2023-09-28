@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/escape1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/room1"
+        android:layout_width="555dp"
+        android:layout_height="367dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/room1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/door"
+        android:layout_width="122dp"
+        android:layout_height="233dp"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/room1"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="119dp"
+        android:src="@drawable/door"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/cabinet"
+        android:layout_width="170dp"
+        android:layout_height="139dp"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/room1"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="54dp"
+        android:src="@drawable/room1_cabinet"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/cabineti"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/room1"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="93dp"
+        android:src="@drawable/room1_cabineti"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/carpet"
+        android:layout_width="233dp"
+        android:layout_height="86dp"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/room1"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/room1_carpet"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/carpeti"
+        android:layout_width="262dp"
+        android:layout_height="87dp"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/room1"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/room1_carpeti"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room1_arrow"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/room1"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="472dp"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/arrow_right"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/cabineti"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="394dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="308dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/room1"
+        android:layout_alignTop="@+id/room1"
+        android:layout_alignEnd="@+id/cabineti"
+        android:layout_alignBottom="@+id/room1"
+        android:layout_marginStart="393dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+</RelativeLayout >

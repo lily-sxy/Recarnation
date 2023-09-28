@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/escape3"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/room3"
+        android:layout_width="555dp"
+        android:layout_height="367dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/room3"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/room3_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/room3"
+        android:layout_alignTop="@+id/room3"
+        android:layout_alignEnd="@+id/room3"
+        android:layout_alignBottom="@+id/room3"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/arrow_down"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room3_frig"
+        android:layout_width="150dp"
+        android:layout_height="269dp"
+        android:layout_alignStart="@+id/room3"
+        android:layout_alignTop="@+id/room3"
+        android:layout_alignEnd="@+id/room3"
+        android:layout_alignBottom="@+id/room3"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="98dp"
+        android:src="@drawable/room3_frig"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room3_frigi"
+        android:layout_width="168dp"
+        android:layout_height="267dp"
+        android:layout_alignStart="@+id/room3"
+        android:layout_alignTop="@+id/room3"
+        android:layout_alignEnd="@+id/room3"
+        android:layout_alignBottom="@+id/room3"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/room3_frigi"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/cheese"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/room3_frigi"
+        android:layout_alignStart="@+id/room3_frigi"
+        android:layout_alignTop="@+id/room3_frigi"
+        android:layout_alignEnd="@+id/room3_frigi"
+        android:layout_alignBottom="@+id/room3_frigi"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="164dp"
+        android:src="@drawable/room3_cheese"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ice"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_above="@id/room3_frigi"
+        android:layout_alignStart="@+id/room3_frigi"
+        android:layout_alignTop="@+id/room3_frigi"
+        android:layout_alignEnd="@+id/room3_frigi"
+        android:layout_alignBottom="@+id/room3_frigi"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="126dp"
+        android:visibility="invisible"
+        android:src="@drawable/room3_ice"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room3_stove"
+        android:layout_width="218dp"
+        android:layout_height="197dp"
+        android:layout_alignStart="@+id/room3"
+        android:layout_alignTop="@+id/room3"
+        android:layout_alignEnd="@+id/room3"
+        android:layout_alignBottom="@+id/room3"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="314dp"
+        android:layout_marginBottom="115dp"
+        android:src="@drawable/room3_stove"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/room3_stovei"
+        android:layout_width="218dp"
+        android:layout_height="197dp"
+        android:layout_alignStart="@+id/room3"
+        android:layout_alignTop="@+id/room3"
+        android:layout_alignEnd="@+id/room3"
+        android:layout_alignBottom="@+id/room3"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="314dp"
+        android:layout_marginBottom="115dp"
+        android:src="@drawable/room3_stovei"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>
